@@ -1,0 +1,64 @@
+body{
+  background-color: rgb(6, 42, 122);
+  background-image: url(../gallerie/vetement.jpeg);
+  background-size: cover;
+}
+
+.col-m-12{
+  height: 300px;
+}
+a{
+  color: white;
+  margin: 10px;
+  display: inline;
+  text-transform: uppercase;
+  text-decoration: none;
+  /*font-size: 40px;*/
+  /*font-size: 27px;*/
+}
+span{
+  color: red;
+}
+#ou{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ou .group-form{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.65);
+  margin-left: auto;
+}
+.input{
+  padding: 7px 15px;
+  border-radius: 100px;
+  border: 2px solid rgb(125,24,24);
+  width: 200px;
+  transition-duration: 0.4s;
+  margin: 5px 0;
+  margin: 10px;
+}
+.input:focus{
+  border: 2px solid rgb(180,28,28);
+  width: 260px;
+  transition-duration: 0.4s;
+}
+span a{
+  color: black;
+}
+.group-form a:hover{
+  color: red;
+}
+.group-form a{
+color: white;
+}
+h1{
+  color: white;
+  font-size: 90px;
+  margin-left: auto;
+}

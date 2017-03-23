@@ -1,0 +1,111 @@
+body{
+  background-color: rgb(16, 161, 96);
+  background-image: url(../gallerie/boutique.jpeg);
+  background-size: cover;
+  margin: 0;
+}
+*{
+  box-sizing: padding-box;
+}
+header{
+  display: flex;
+
+}
+#ou{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ou .piramide{
+  text-align: center;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  margin-left: auto;
+}
+
+.input{
+  padding: 7px 15px;
+  border-radius: 100px;
+  border: 2px solid rgb(125,24,24);
+  width: 260px;
+  transition-duration: 0.4s;
+  margin: 5px 0;
+  margin: 1px;
+}
+/*.sexe{
+  padding: 7px 15px;
+  border-radius: 10px;
+  border: 200px solid rgb(125,24,24);
+  width: 200px;
+  transition-duration: 0.4s;
+  margin: 5px 0;
+  margin: 1px;
+}
+.sexe:focus{
+  border: 2px solid rgb(180,28,28);
+  width: 260px;
+  transition-duration: 0.4s;
+}*/
+.input:focus{
+  border: 2px solid rgb(180,28,28);
+  width: 220px;
+  transition-duration: 0.4s;
+}
+#ou .date{
+  display: flex;
+  display: inline-block;
+  flex-wrap:nowrap;
+}
+/*.civilite:focus{
+  border: 2px solid rgb(180,28,28);
+  width: 260px;
+  transition-duration: 0.4s;
+}*/
+h1{
+  color: white;
+  font-size: 70px;
+  margin-left: auto;
+  float: none;
+}
+
+
+h1:hover{
+  color: red;
+  transition: 0.7s;
+}
+span:hover{
+  color: white;
+  transition: 1s;
+}
+h3:hover{
+  color: red;
+  transition: 0.8s;
+}
+h1,h3{
+  color: white;
+}
+b{
+  color: white;
+}
+select{
+
+  padding: 0px;
+}
+.col-m-6{
+  height: 700px;
+
+  color: red;
+}
+span{
+  color: red;
+
+}
+#ou .valider{
+  text-align: center;
+  margin: 30px;
+}
